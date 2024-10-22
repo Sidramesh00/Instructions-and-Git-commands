@@ -1,0 +1,45 @@
+Git commands: -
+To add new project : - 
+1) Move or copy project into local path 
+2) git status  
+3) git add  < project name > 
+Or 
+git add  < project name 1 > < project name 2 > …. < project name n > 
+4) git status 
+5) git commit -a 
+6) git status 
+7) git push origin < branch name > 
+To view the hidden files: - ls -a 
+To remove files: - rm <file name 1> < file name 2> …… 
+To remove directory: - rm -r <directory name > 
+To copy: - cp -r < copy a path from > < copy to new path> 
+To move: - mv -r < > 
+To view commands history: - history 
+To checkout from current branch: - git checkout 
+To know the branch: - git branch 
+To check out the newly created branch If your local repository doesn't have the branch yet, you may 
+need to fetch the branches first: -git fetch origin  
+To view the current path: - pwd 
+To pull: - git pull origin < branch name > 
+
+After creating new repository: - 
+Below shows how to create a local folder and make it as master  
+or create a new repository on the command line 
+echo "# STM32_Projects" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Sidramesh00/STM32_Projects.git 
+before pushing i run git add < folder name> since I already copied a project folder into the local 
+directory. 
+git push -u origin main 
+
+after this I created a new branch private/sidramesh/test in Github and for that to reflect in the local 
+repository I have to run 
+git fetch origin
+
+Shortcuts: -
+To clear everything: - CTRL+L
+To copy: - click on the text
+To paste whatever text you copied: - SHIFT + Insert
