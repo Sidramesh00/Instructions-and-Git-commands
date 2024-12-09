@@ -1,3 +1,6 @@
 These intsructions exclusively for projects created in ModusToolbox (MTB): -
 I shouldn't copy the MTB projects direcltly from its application directory into my local git repo( In my laptop), 
-In MTB I should export the project to my local git repo and while doing so I should exclude build folder and also gitignore file will exclude other unnessassory files. 
+In MTB I should export the project to my local git repo and while doing so 
+1) I should create a new folder in Documents/MTB_Projects_Git
+2)I should exclude build folder 
+Note:- gitignore file will exclude other unnessassory files. 
